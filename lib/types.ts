@@ -88,6 +88,7 @@ export interface ClinicInfo {
   pharmacy?: string
   diagnostics?: string
   onlineConsultation?: string
+  hasPackages?: boolean
 }
 
 export interface DoctorInfo {
